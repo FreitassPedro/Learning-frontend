@@ -1,0 +1,78 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  grid-template-rows: auto auto;
+}
+
+.foto {
+  grid-column: 1 / -1;
+  max-width: 50%;
+  margin: 10px;
+  display: block;
+}
+
+.descricao {
+  grid-column: 1 / -1; /* Ocupar a tela toda */
+}
+
+/* Estilos Gerais*/
+body {
+  font-family: Arial;
+  margin: 40px;
+  background: #0f0f0f;
+}
+
+h1,
+p {
+  color: #ddd;
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+h1 {
+  font: 48px;
+  line-height: 1;
+}
+
+p,
+span {
+  font-size: 25x;
+  font-family: Century Gothic;
+}
+a {
+  font-size: 16px;
+}
+
+.caixinha {
+  background: rgba(241, 241, 241, 0.541);
+}
+.comprar {
+  background-color: rgba(207, 101, 1, 0.856);
+  text-decoration: none;
+  padding: 10px 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
+  font-size: 30px;
+  font-family: Helvetica Neue;
+}
+
+.preco {
+  background: #ddd;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.espc {
+  color: #6d6d6d;
+}
+
+.titulo {
+  font-size: 50px;
+}
