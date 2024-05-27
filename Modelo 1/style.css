@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
+  background-color: #000000e0;
+}
+
+span {
+  color: #febe01;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  color: white;
+  margin: 0px;
+}
+
+p {
+  color: #b2b2b2;
+}
+.item {
+  background-color: #111;
+  padding: 30px;
+  margin: 20px;
+  align-items: center;
+}
+
+div {
+  border-radius: 3px;
+}
+a {
+  background-color: #febe01;
+  color: #332100;
+  padding: 12px;
+  width: 200px;
+  border-radius: 4px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
